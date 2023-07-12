@@ -13,7 +13,7 @@ The model's performance is evaluated on the test data using various metrics. The
 ## Usage
 To reproduce the sentiment classification task using this project, follow these steps:
 
-Clone the repository: git clone https://github.com/priankagopi/Natural-Language-Processing.git \
+Clone the repository: git clone https://github.com/priankagopi/Sentiment-Classification-using-IMDb-Movie-Reviews-Dataset.git \
 Install the required dependencies: pip install -r requirements.txt \
 Execute the script or notebook for data preprocessing and model training. \
 Evaluate the model's performance on the test set and generate the classification report. \
