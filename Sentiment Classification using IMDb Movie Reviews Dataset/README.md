@@ -5,10 +5,10 @@ This project focuses on sentiment classification using the IMDb movie reviews da
 The IMDb movie reviews dataset contains a total of 50,000 movie reviews, with 25,000 reviews for training and 25,000 for testing. The reviews are labeled as positive or negative and are stored as text files within the "train" and "test" folders. The dataset has been preprocessed to remove unnecessary elements such as HTML symbols, emoji representations, numbers, punctuation, and stopwords.
 
 ## Model Architecture
-For sentiment classification, a pre-trained DistilBERT model is utilized as a transformer model. A classification layer is added on top of the DistilBERT model to create a Keras model. The model is trained on the training data for 3 epochs using an Adam optimizer and binary cross-entropy loss function.
+For sentiment classification, a pre-trained DistilBERT model is utilized as a transformer model. A classification Dense layer is added on top of the DistilBERT model, creating a Keras LSTM model. The model is trained on the training data for 3 epochs using an Adam optimizer and binary cross-entropy loss function.
 
 ## Results
-The model's performance is evaluated on the test data using various metrics. The overall accuracy of the model's predictions on the test set was found to be 84%. The classification report provides additional details, including precision, recall, and F1-score for each class (positive and negative). The model demonstrates balanced performance across both classes, indicating its ability to classify sentiments effectively.
+The model's performance is evaluated on the test data using various metrics. The accuracy of the linear probed model yielded a value of 87.86% as opposed to 84% without linear probing. The classification report provides additional details, including precision, recall, and F1-score for each class (positive and negative). The model demonstrates balanced performance across both classes, indicating its ability to classify sentiments effectively.
 
 ## Usage
 To reproduce the sentiment classification task using this project, follow these steps:
