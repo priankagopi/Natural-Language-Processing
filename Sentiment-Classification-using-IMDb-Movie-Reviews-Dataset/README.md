@@ -13,8 +13,8 @@ The model's performance is evaluated on the test data using various metrics. The
 ## Usage
 To reproduce the sentiment classification task using this project, follow these steps:
 
-Clone the repository: git clone https://github.com/priankagopi/your-repo.git \
-Install the required dependencies: pip install -r requirements.txt \
+Clone the repository: git clone [repository address] \
+Install the required dependencies. \
 Execute the script or notebook for data preprocessing and model training. \
 Evaluate the model's performance on the test set and generate the classification report. \
 Modify the code as needed for further experimentation or fine-tuning.
